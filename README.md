@@ -5,13 +5,13 @@ C++ collision detection / resolution library
 #Object Types
 ----------------
 
-###Non-rotatable
+**Non-rotatable**
 
 AABB - Axis aligned bounding box collision, modifiable by 
 
 Sphere - Modifiable by radius.
 
-###Rotatable
+**Rotatable**
 
 Prism - Modifiable by width, height and depth.
 
