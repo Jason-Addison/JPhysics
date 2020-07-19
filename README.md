@@ -16,3 +16,5 @@ Sphere - Modifiable by radius.
 Prism - Modifiable by width, height and depth.
 
 Triangles (Soup) - List of unordered triangles, modifiable by width, height and depth.
+
+Plane - Infinitely stretches on 2 axises
