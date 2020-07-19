@@ -2,7 +2,7 @@
 C++ collision detection / resolution library
 
 
-#Object Types
+Object Types
 ----------------
 
 **Non-rotatable**
