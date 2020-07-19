@@ -7,7 +7,7 @@ Object Types
 
 **Non-rotatable**
 
-AABB - Axis aligned bounding box collision, modifiable by 
+AABB - Axis aligned bounding box collision, modifiable by width, height and depth.
 
 Sphere - Modifiable by radius.
 
