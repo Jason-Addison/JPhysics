@@ -1,5 +1,6 @@
 #pragma once
 #include <memory>
+#include <vector>
 /*
 	Physics Object - Base class for any physics objects
 	
@@ -20,13 +21,43 @@ public:
 	bool checkCollision(PhysicsObject* object);
 
 	void setPosition(double x, double y, double z);
+
+	void addImpulse(double x, double y, double z);
+
 	double getX();
 
 	double getY();
 
 	double getZ();
 
+	double getXVelocity();
+
+	double getYVelocity();
+
+	double getZVelocity();
+
+	void setXVelocity(double vel);
+
+	void setYVelocity(double vel);
+
+	void setZVelocity(double vel);
+
+	void update();
+
 protected:
+
+	struct Impulse
+	{
+		double xi, yi, zi;
+		Impulse(double x, double y, double z)
+		{
+			xi = x;
+			yi = y;
+			zi = z;
+		}
+	};
+
+	std::vector<struct Impulse> impulses;
 
 	int type = 0;
 	/*
