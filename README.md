@@ -1,6 +1,7 @@
 # JPhysics
 C++ collision detection / resolution library using Seperation Axis Theorem.
 
+PhysicsObjects in a PhysicsWorld will interact with one another. Modifiers such as gravity and airresistance can be set in each world.
 
 Object Types
 ----------------
