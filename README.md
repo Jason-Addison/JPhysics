@@ -1,5 +1,5 @@
 # JPhysics
-C++ collision detection / resolution library
+C++ collision detection / resolution library using Seperation Axis Theorem.
 
 
 Object Types
